@@ -7,23 +7,30 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		C56C23781EEEB3DB00D02164 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C56C23771EEEB3DB00D02164 /* AppDelegate.m */; };
 		C56C237B1EEEB3DB00D02164 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C56C237A1EEEB3DB00D02164 /* main.m */; };
-		C56C237E1EEEB3DB00D02164 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C56C237D1EEEB3DB00D02164 /* ViewController.m */; };
 		C56C23801EEEB3DB00D02164 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C56C237F1EEEB3DB00D02164 /* Assets.xcassets */; };
-		C56C23831EEEB3DB00D02164 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C56C23811EEEB3DB00D02164 /* Main.storyboard */; };
+		C56C238B1EEEB40800D02164 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = C56C238A1EEEB40800D02164 /* MainMenu.xib */; };
+		C56C238E1EEEB6F700D02164 /* MainWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = C56C238D1EEEB6F700D02164 /* MainWindowController.m */; };
+		C57ECCBB1EEFB53600D847AB /* BasicTabbleDemo.m in Sources */ = {isa = PBXBuildFile; fileRef = C57ECCB91EEFB53600D847AB /* BasicTabbleDemo.m */; };
+		C57ECCBC1EEFB53600D847AB /* BasicTabbleDemo.xib in Resources */ = {isa = PBXBuildFile; fileRef = C57ECCBA1EEFB53600D847AB /* BasicTabbleDemo.xib */; };
+		C57ECCC11EEFB63500D847AB /* ComplexTableDemo.m in Sources */ = {isa = PBXBuildFile; fileRef = C57ECCBF1EEFB63500D847AB /* ComplexTableDemo.m */; };
+		C57ECCC21EEFB63500D847AB /* ComplexTableDemo.xib in Resources */ = {isa = PBXBuildFile; fileRef = C57ECCC01EEFB63500D847AB /* ComplexTableDemo.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		C56C23731EEEB3DB00D02164 /* TableDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TableDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		C56C23761EEEB3DB00D02164 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		C56C23771EEEB3DB00D02164 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		C56C237A1EEEB3DB00D02164 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		C56C237C1EEEB3DB00D02164 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		C56C237D1EEEB3DB00D02164 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		C56C237F1EEEB3DB00D02164 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		C56C23821EEEB3DB00D02164 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C56C23841EEEB3DB00D02164 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C56C238A1EEEB40800D02164 /* MainMenu.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = MainMenu.xib; path = ../MainMenu.xib; sourceTree = "<group>"; };
+		C56C238C1EEEB6F700D02164 /* MainWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainWindowController.h; sourceTree = "<group>"; };
+		C56C238D1EEEB6F700D02164 /* MainWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainWindowController.m; sourceTree = "<group>"; };
+		C57ECCB81EEFB53600D847AB /* BasicTabbleDemo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BasicTabbleDemo.h; sourceTree = "<group>"; };
+		C57ECCB91EEFB53600D847AB /* BasicTabbleDemo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BasicTabbleDemo.m; sourceTree = "<group>"; };
+		C57ECCBA1EEFB53600D847AB /* BasicTabbleDemo.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BasicTabbleDemo.xib; sourceTree = "<group>"; };
+		C57ECCBE1EEFB63500D847AB /* ComplexTableDemo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ComplexTableDemo.h; path = ../ComplexTableDemo.h; sourceTree = "<group>"; };
+		C57ECCBF1EEFB63500D847AB /* ComplexTableDemo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ComplexTableDemo.m; path = ../ComplexTableDemo.m; sourceTree = "<group>"; };
+		C57ECCC01EEFB63500D847AB /* ComplexTableDemo.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = ComplexTableDemo.xib; path = ../ComplexTableDemo.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,12 +63,12 @@
 		C56C23751EEEB3DB00D02164 /* TableDemo */ = {
 			isa = PBXGroup;
 			children = (
-				C56C23761EEEB3DB00D02164 /* AppDelegate.h */,
-				C56C23771EEEB3DB00D02164 /* AppDelegate.m */,
-				C56C237C1EEEB3DB00D02164 /* ViewController.h */,
-				C56C237D1EEEB3DB00D02164 /* ViewController.m */,
+				C56C238A1EEEB40800D02164 /* MainMenu.xib */,
+				C56C238C1EEEB6F700D02164 /* MainWindowController.h */,
+				C56C238D1EEEB6F700D02164 /* MainWindowController.m */,
+				C57ECCBD1EEFB54600D847AB /* BasicTableDemo */,
+				C57ECCC31EEFB64A00D847AB /* ComplexTableDemo */,
 				C56C237F1EEEB3DB00D02164 /* Assets.xcassets */,
-				C56C23811EEEB3DB00D02164 /* Main.storyboard */,
 				C56C23841EEEB3DB00D02164 /* Info.plist */,
 				C56C23791EEEB3DB00D02164 /* Supporting Files */,
 			);
@@ -74,6 +81,26 @@
 				C56C237A1EEEB3DB00D02164 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C57ECCBD1EEFB54600D847AB /* BasicTableDemo */ = {
+			isa = PBXGroup;
+			children = (
+				C57ECCB81EEFB53600D847AB /* BasicTabbleDemo.h */,
+				C57ECCB91EEFB53600D847AB /* BasicTabbleDemo.m */,
+				C57ECCBA1EEFB53600D847AB /* BasicTabbleDemo.xib */,
+			);
+			name = BasicTableDemo;
+			sourceTree = "<group>";
+		};
+		C57ECCC31EEFB64A00D847AB /* ComplexTableDemo */ = {
+			isa = PBXGroup;
+			children = (
+				C57ECCBE1EEFB63500D847AB /* ComplexTableDemo.h */,
+				C57ECCBF1EEFB63500D847AB /* ComplexTableDemo.m */,
+				C57ECCC01EEFB63500D847AB /* ComplexTableDemo.xib */,
+			);
+			name = ComplexTableDemo;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -135,8 +162,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C57ECCBC1EEFB53600D847AB /* BasicTabbleDemo.xib in Resources */,
 				C56C23801EEEB3DB00D02164 /* Assets.xcassets in Resources */,
-				C56C23831EEEB3DB00D02164 /* Main.storyboard in Resources */,
+				C57ECCC21EEFB63500D847AB /* ComplexTableDemo.xib in Resources */,
+				C56C238B1EEEB40800D02164 /* MainMenu.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -147,24 +176,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C56C237E1EEEB3DB00D02164 /* ViewController.m in Sources */,
+				C56C238E1EEEB6F700D02164 /* MainWindowController.m in Sources */,
 				C56C237B1EEEB3DB00D02164 /* main.m in Sources */,
-				C56C23781EEEB3DB00D02164 /* AppDelegate.m in Sources */,
+				C57ECCC11EEFB63500D847AB /* ComplexTableDemo.m in Sources */,
+				C57ECCBB1EEFB53600D847AB /* BasicTabbleDemo.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		C56C23811EEEB3DB00D02164 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				C56C23821EEEB3DB00D02164 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		C56C23851EEEB3DB00D02164 /* Debug */ = {
@@ -260,10 +279,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_OBJC_ARC = NO;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = 7HN3FL9R65;
 				INFOPLIST_FILE = TableDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
 				PRODUCT_BUNDLE_IDENTIFIER = com.zhaorui.TableDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -273,10 +294,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_OBJC_ARC = NO;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = 7HN3FL9R65;
 				INFOPLIST_FILE = TableDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
 				PRODUCT_BUNDLE_IDENTIFIER = com.zhaorui.TableDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -301,6 +324,7 @@
 				C56C23891EEEB3DB00D02164 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

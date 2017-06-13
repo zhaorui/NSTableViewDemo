@@ -1,5 +1,5 @@
 //
-//  AppDelegate.h
+//  MainWindowController.h
 //  TableDemo
 //
 //  Created by 赵睿 on 12/6/17.
@@ -8,8 +8,6 @@
 
 #import <Cocoa/Cocoa.h>
 
-@interface AppDelegate : NSObject <NSApplicationDelegate>
-
+@interface MainWindowController : NSWindowController
 
 @end
-

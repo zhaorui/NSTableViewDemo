@@ -13,6 +13,7 @@
 
 @property (retain, nonatomic) NSMutableArray* tableContents;
 @property (assign) IBOutlet NSTextField *textField;
+@property (assign) IBOutlet NSTableView *tableview;
 
 @end
 
@@ -40,4 +41,13 @@
   [basic_demo showWindow:self];
   [[self window] close];
 }
+
+- (IBAction)clickon:(NSTableView *)sender {
+  NSLog(@"click on %ld", self.tableview.selectedRow);
+}
+
+- (IBAction)doubleclickon:(NSTableView *)sender {
+  NSLog(@"double click on %ld", self.tableview.selectedRow);
+}
+
 @end

@@ -11,6 +11,7 @@
         <customObject id="-3" userLabel="Application" customClass="NSObject"/>
         <customObject id="bpF-7b-P3c" customClass="MainWindowController">
             <connections>
+                <outlet property="tableview" destination="tPC-lU-Pwj" id="rGB-oj-G7y"/>
                 <outlet property="textField" destination="iGi-lE-MFB" id="ttz-U8-aKo"/>
                 <outlet property="window" destination="dWA-OP-J1b" id="g1a-dc-crK"/>
             </connections>
@@ -755,6 +756,8 @@
                                         </tableColumn>
                                     </tableColumns>
                                     <connections>
+                                        <action selector="clickon:" target="bpF-7b-P3c" id="2eG-4H-9Eu"/>
+                                        <action trigger="doubleAction" selector="doubleclickon:" target="bpF-7b-P3c" id="fjC-W6-yLO"/>
                                         <binding destination="ffk-t0-NKH" name="content" keyPath="arrangedObjects" id="FUL-TY-caf"/>
                                     </connections>
                                 </tableView>
